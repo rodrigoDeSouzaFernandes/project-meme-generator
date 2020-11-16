@@ -32,9 +32,10 @@ header {
   color: white;
   background-size: 200vmax;
   background-position: top;
-  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   padding: 30px;
-  width: 100%;
 }
 
 main {
@@ -67,7 +68,6 @@ body {
     position: relative;
     font-family: Luckiest Guy;
     font-size: 80px;
-    top: 30px;
 }
 
 .fire, .water, .earth {
